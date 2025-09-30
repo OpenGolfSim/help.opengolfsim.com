@@ -23,9 +23,11 @@ To setup the Approach R10 as your primary OpenGolfSim launch monitor:
 
 1. Open **OpenGolfSim Desktop** and select **Simulator** in the sidebar.
 2. When prompted to configure your launch monitor, selected the **Approach R10** option.
-        Note: If you have already setup a launch monitor, you'll need to click the launch monitor icon in the toolbar and select **Change Launch Monitor** 
+        
+        Note: If you have already setup a launch monitor, you can go to **Settings > Shot Data** to change your launch monitor.
+
 3. The required tools will be downloaded automatically on the next step.
 
 ## Operation
 
-Once the initial setup is complete
+Once the initial setup is complete, the launch monitor should automatically pair with OpenGolfSim when turned on.
