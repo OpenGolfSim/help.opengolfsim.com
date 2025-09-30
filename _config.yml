@@ -1,6 +1,6 @@
-remote_theme: just-the-docs/just-the-docs
+# remote_theme: just-the-docs/just-the-docs
 repository: OpenGolfSim/opengolfsim.com
-# theme: just-the-docs
+theme: just-the-docs
 logo: "/assets/logo-clear-white.svg"
 color_scheme: ogs
 plugins:
