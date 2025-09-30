@@ -30,9 +30,20 @@ has_children: true
 
 
 
-The fastest way to get started is with the OpenGolfSim mobile app. If you’ve got an old phone or tablet collecting dust, repurpose it, tape it to the wall, prop it on a stand, whatever works.
+The easiest way to control your sim is with the OpenGolfSim Mobile control app. If you’ve got an old phone or tablet collecting dust, repurpose it into a control box for your simulator.
 
-<img src="/assets/OGS_Documentation/mobile-app-ss.png" width="100%" style="max-width: 700px;" />
+
+<div style="margin: 20px 0;display: flex; gap: 30px; align-items: center; justify-content: center;">
+  <a href="https://apps.apple.com/us/app/opengolfsim/id6745538399">
+    <img src="/assets/mobile/app_store.svg" width="180" />
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.ogs.opengolfsim">
+    <img src="/assets/mobile/google_play.svg" width="180" />
+  </a>
+</div>
+
+<img src="/assets/mobile/mobile-app-devices.png" width="100%" style="max-width: 700px;" />
+
 
 ## Built-In Buttons
 
@@ -48,10 +59,4 @@ The fastest way to get started is with the OpenGolfSim mobile app. If you’ve g
 - Re-Hit
 - Score Card
 - Range Finder
-
-
-## Coming Soon
-
-  - We are working on some exciting enhancements to this app in the furture, stay tuned!
-
 

@@ -1,6 +1,6 @@
 ---
 title: Course Terrain Tool
-parent: Course Building Tools
+parent: Course Building
 category: tools
 thumbnail: /assets/icon.png
 ---
@@ -9,7 +9,7 @@ thumbnail: /assets/icon.png
 
 <img src="/assets/icon.png" alt="Course Terrain Tool" srcset="/assets/icon.png 2x" />
 
-Course Terrain Tool is a desktop application that makes generating Unity terrains from elevation data super easy. You can search or import [Lidar](https://en.wikipedia.org/wiki/Lidar) data from a variety of public sources like the USGS national map. Then process it and output RAW terrain files, as well as satellite and hillshade imagery. required files to add terrains using the [OPCD course building tools](https://zerosandonesgcd.com/opcd-course-creation/).
+Course Terrain Tool is an open source desktop application that makes generating Unity terrains from elevation data super easy. You can search or import [Lidar](https://en.wikipedia.org/wiki/Lidar) data from a variety of public sources like the USGS national map. Then process it and output RAW terrain files, as well as satellite and hillshade imagery. and other helpful course building files.
 
 ### Features
 

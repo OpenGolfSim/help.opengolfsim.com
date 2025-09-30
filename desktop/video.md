@@ -1,14 +1,14 @@
 ---
 parent: OpenGolfSim Desktop
-title: Video
-nav_order: 4
+title: Swing Video
+nav_order: 5
 ---
 
-# Video
+# Swing Video
 
-OpenGolfSim can use one or more connected webcams to automatically record short video clips of your shots and even provide on-screen instant replay.
+With OpenGolfSim you can use connected webcams to automatically record short video clips of your swing and even provide on-screen instant replay.
 
-<img src="/assets/replay-preview.jpg" width="100%" style="max-width: 300px;" />
+<img src="/assets/replay-preview-01.jpg" width="100%" style="max-width: 300px;" />
 
 After installing OpenGolfSim be sure to **enable** the Video Replay option from the Video Replay tab. 
 

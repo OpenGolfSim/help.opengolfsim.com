@@ -1,19 +1,19 @@
 ---
 parent: OpenGolfSim Desktop
-title: Installation Guide
+title: Installation
 nav_order: 2
 thumbnail: /assets/appicon.svg
 ---
 
 # OpenGolfSim Desktop Installation Guide
 
-OpenGolfSim Desktop is the main Windows app that connects your devices and brings everything together for a better golf sim experience. This guide walks you through installation and covers common setup issues so you can get up and running.
+This guide walks you through installation and covers common setup issues so you can get up and running quickly.
 
 ---
 
 ## Download & Installation
 
-To get started, download the latest release of OpenGolfSim Desktop on the same PC where you run GSPro.
+To get started, download the latest release of OpenGolfSim Desktop.
 
 1. Go to our [downloads page](https://opengolfsim.com/account/downloads).
 2. If you don’t already have an account, you’ll be prompted to create one. Otherwise, log in with your existing credentials.
@@ -38,7 +38,7 @@ Click **More Info**, then select **Run anyway** to continue.
 After installation, OpenGolfSim will launch automatically and appear as a new icon in your Windows taskbar. Here’s what happens next:
 
 - **Firewall prompt (optional)**  
-  On some systems, Windows may ask to allow access. Approve it so the app can communicate with GSPro, your control box, or mobile devices.
+  On some systems, Windows may ask to allow access. Approve it so the app can communicate with other devices over the network.
 
 - **Runs in the background**  
   OpenGolfSim functions as a system service, staying out of the way while staying connected. To close OpenGolfSim Desktop select File then "Exit OpenGolfSim" or quit the app from the systems tray.
@@ -55,9 +55,9 @@ Once signed in, you're ready to:
 
 - Pair the mobile app and start using remote controls.
 - Enable and test video replay features.
-- Configure GSPro settings (see the [GSPro Settings](https://help.opengolfsim.com/desktop/gspro-settings.html) page).
-- Start a round and play.
+- Configure third-party apps and settings (see the [Third-Party Software](/desktop/gspro-settings) page).
+- Start a round and play!
 
 ---
 
-If you run into something not covered here, [contact us](/contact) and we’ll help you out.
+If you run into something not covered here, [contact us](/contact) and we’ll try our. best to help.

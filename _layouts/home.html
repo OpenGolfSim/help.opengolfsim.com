@@ -5,7 +5,20 @@ layout: default
 {{ content }}
 
 
-{% assign tools = site.pages | where:"category","tools" %}
+<h2 class="post-list-heading">Documentation</h2>
+<ul class="tool-list">
+  <li>
+    <a class="post-link" href="/desktop/">
+      OpenGolfSim Desktop
+    </a>
+  </li>
+  <li>
+    <a class="post-link" href="/mobile/">
+      OpenGolfSim Mobile Control
+    </a>
+  </li>
+</ul>
+<!-- {% assign tools = site.pages | where:"category","tools" %}
 {% if tools.size > 0 %}
 <h2 class="post-list-heading">Products</h2>
 <ul class="tool-list">
@@ -22,10 +35,10 @@ layout: default
   </li>
 {% endfor %}
 </ul>
-{% endif %}
+{% endif %} -->
 
 
-
+<!-- 
 {% if site.paginate %}
 {% assign posts = paginator.posts %}
 {% else %}
@@ -76,4 +89,4 @@ layout: default
   </div>
 {%- endif %}
 
-{%- endif -%}
+{%- endif -%} -->

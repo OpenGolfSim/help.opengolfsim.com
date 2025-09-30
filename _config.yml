@@ -3,12 +3,15 @@ repository: OpenGolfSim/opengolfsim.com
 # theme: just-the-docs
 logo: "/assets/logo-clear-white.svg"
 color_scheme: ogs
+plugins:
+  - jekyll-tabs
 
 footer_content: 'Copyright &copy; 2025 OpenGolfSim LLC - <a href="/privacy">Privacy</a> - <a href="/terms">Terms and Conditions</a>'
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y"
 
 show_excerpts: true
+enable_copy_code_button: true
 
 aux_links:
   # Shop:
@@ -25,6 +28,9 @@ mermaid:
   version: "10.6.1"
 
 callouts:
+  tip:
+    title: Tip
+    color: green
   note:
     title: Note
     color: blue

@@ -1,10 +1,23 @@
 ---
-title: Course Building Tools
+title: Course Building
 nav_order: 4
 has_children: true
 ---
 
-We also build and maintain some open-source golf simulation and course building tools.
-<!-- 
-- [Course Terrain Tool](./course-terrain-tool)
-    CTT is a desktop application for acquiring and processing raw elevation data into height map files used for building virtual courses. -->
+## Course Building
+
+Want to design and build your own course or game for OpenGolfSim? You're in the right place. Here you'll find helpful guides and documentation for the OGS Course Building process.
+
+{: .note }
+> Before you can get access to our course building tools, you may need to apply to join our Developer Program. It's free to join, but you'll need to accept the Developer Program Terms and Conditions before accessing the tools.
+
+
+<img src="/assets/course-building/course-build.jpg" />
+
+### Join the Community
+
+Join our Discord to get help and learn more about course building or find a course designer to work with.
+
+<a href="https://discord.com/invite/RQdFHwT3bQ" target="_blank" class="button">
+  Join Our Discord
+</a>
