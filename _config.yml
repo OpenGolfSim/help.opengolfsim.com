@@ -3,7 +3,7 @@ theme: just-the-docs
 repository: OpenGolfSim/opengolfsim.com
 logo: "/assets/logo-clear-white.svg"
 color_scheme: ogs
-
+title: "OpenGolfSim Help"
 permalink: pretty
 
 defaults:

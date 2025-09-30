@@ -25,10 +25,6 @@ The app stores any shot data that your launch monitor or simulator software prov
 - Back Spin
 - Side Spin
 
-
-{: .note }
-> Shots that complete a hole do not register as shot data in GSPro's logs. We're working on a solution to this, but currently the final shot of each hole won’t be captured.
-
 ---
 
 ## Viewing Shot History

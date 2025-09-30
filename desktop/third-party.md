@@ -19,6 +19,9 @@ Some button actions on the control box or mobile app require settings to be enab
 
 This page shows how to enable the most commonly used features so everything works as expected.
 
+{: .note }
+> Shots that complete a hole do not register as shot data in GSPro's logs. We're working on a solution to this, but currently the final shot of each hole won’t be captured.
+
 ---
 
 ## Mulligan Button: Enabling Mulligan Functionality
