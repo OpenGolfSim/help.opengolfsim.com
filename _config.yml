@@ -12,11 +12,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: "docs" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "default"
 
 plugins:
   - jekyll-tabs
@@ -36,7 +31,7 @@ aux_links:
   Socials:
     - /connect-with-us
 
-exclude: [brian, .vscode, _site]
+exclude: [brian, .vscode, _site, vendor]
 
 mermaid:
   # Version of mermaid library
