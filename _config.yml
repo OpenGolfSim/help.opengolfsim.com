@@ -1,8 +1,23 @@
 # remote_theme: just-the-docs/just-the-docs
-repository: OpenGolfSim/opengolfsim.com
 theme: just-the-docs
+repository: OpenGolfSim/opengolfsim.com
 logo: "/assets/logo-clear-white.svg"
 color_scheme: ogs
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
 plugins:
   - jekyll-tabs
 
@@ -22,6 +37,7 @@ aux_links:
     - /connect-with-us
 
 exclude: [brian, .vscode, _site]
+
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
