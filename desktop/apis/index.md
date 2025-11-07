@@ -11,11 +11,7 @@ Below you'll find documentation for our developer API. It's still in the early s
 Have a feature or API idea? Want to nerd out? Come drop us a line on our <a href="/connect-with-us">Discord</a>, we'd love to see what you're building!
 
 
-1. TOC
-{:toc}
-
-
-### TCP Connection
+## TCP Connection
 
 Our Developer API allows for simple TCP communication on port `3111` to communicate with the OpenGolfSim app programmatically. This makes it easy to create your own experimental integrations, launch monitor connectors, or other custom automation.
 
@@ -27,15 +23,12 @@ Our Developer API allows for simple TCP communication on port `3111` to communic
 > If connecting over the network, you can also use the local IP of your machine (e.g. `192.168.x.x`)
 
 
-Once you've established a connection, you can send and receive JSON payloads to interact with the API.
+Once you've established a connection, you can send and receive messages to interact with the API.
 
 
+The API server will send JSON formatted messages over the TCP connection, which you can read and process for your own project. Below is a list of the events that are sent to any active TCP connection.
 
-### Events
-
-The API server will send JSON messages over the TCP connection, which you can look for and process for your own app. Below is a list of the events that are sent to any active TCP connection.
-
-#### Shot Result
+<!-- #### Shot Result
 
 After a shot has been completed in OpenGolfSim Core connected sockets will receive a `result` event with some stats about the shot from the simulator. This is useful for displaying or recording shot data in your own application.
 
@@ -56,9 +49,9 @@ After a shot has been completed in OpenGolfSim Core connected sockets will recei
     "spinAxis": -1.2
   }
 }
-```
+``` -->
 
-#### Player Change
+<!-- #### Player Change
 
 When a new player is up, this event will fire and include some details about the player's current state in the game.
 
@@ -75,30 +68,4 @@ When a new player is up, this event will fire and include some details about the
     "distanceToPin": 224
   }
 }
-```
-
-### Code Examples
-
-Here are a couple code examples, to give you a better idea of how to send and receive data:
-
-{% tabs log %}
-
-{% tab log node.js %}
-
-{% capture js_example %}
-{% include api-example-js.md %}
-{% endcapture %}
-{{ js_example | markdownify }}
-
-{% endtab %}
-
-{% tab log python %}
-
-{% capture py_example %}
-{% include api-example-python.md %}
-{% endcapture %}
-{{ py_example | markdownify }}
-
-{% endtab %}
-
-{% endtabs %}
+``` -->

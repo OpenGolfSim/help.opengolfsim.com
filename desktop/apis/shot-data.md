@@ -50,10 +50,10 @@ You can indicate the device's status by sending a `ready` or `busy` event type.
 - `shot` - The message type for shots
 
 ### `unit`
-- `metric` - Indicates meters per second for speed and distances (default).
-- `imperial` - Indicates the values are in miles per hour and yards for speed and distances.
+- `imperial` - (default) Indicates the speed values are in miles per hour
+- `metric` - Indicates the speed is supplied in meters per second
 
-Note: If no unit is supplied, then `metric` will be assumed.
+Note: If no unit is supplied, then `imperial` (MPH) will be assumed.
 
 ### `shot`
 - `ballSpeed` - The ball speed in miles per hour (`imperial`) or meters per second (`metric`)
@@ -62,12 +62,11 @@ Note: If no unit is supplied, then `metric` will be assumed.
 - `spinSpeed` - The ball spin speed in rotations per minute (RPM)
 - `spinAxis` - Spin axis. Values should be between -45&deg; and 45&deg;
 
-*An example payload for a shot in imperial units:*
+*An example payload for a shot in MPH:*
 
 ```json
 {
   "type": "shot",
-  "unit": "imperial",
   "shot": {
     "ballSpeed": 101.2,
     "verticalLaunchAngle": 15.4,
@@ -94,3 +93,35 @@ Note: If no unit is supplied, then `metric` will be assumed.
 }
 ```
 
+
+## Shot Result
+
+When a shot is completed in the simulator, the Developer API will send a result event with some details about the shot. Note that at the time of writing result data will always be stored/sent in meters.
+
+```json
+{
+  "type": "result",
+  "data": {
+    "result": {
+      "carry": 196.06776428222656,
+      "height": 18.728025436401367,
+      "roll": 6.482479572296143,
+      "total": 202.54876708984375,
+      "lateral": -0.07558325678110123
+    },
+    "club": {
+      "name": "5W",
+      "id": "5W",
+      "distance": 205
+    },
+    "shot": {
+      "ballSpeed": 135,
+      "verticalLaunchAngle": 11.100000381469727,
+      "horizontalLaunchAngle": 1.2000000476837158,
+      "spinAxis": -2.5,
+      "spinSpeed": 4800
+    },
+    "sessionId": 22
+  }
+}
+```

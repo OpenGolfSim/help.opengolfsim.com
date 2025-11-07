@@ -7,7 +7,7 @@ const ADDRESS = '127.0.0.1';
 const client = new net.Socket();
 
 function sendData(data) {
-  client.write(JSON.stringify(data));
+  client.write(JSON.stringify(data) + '\n');
 }
 
 client.connect(PORT, ADDRESS, () => {
