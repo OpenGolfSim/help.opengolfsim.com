@@ -1,7 +1,8 @@
 ---
 title: Practice Ranges
-parent: Course Building
-nav_order: 1
+parent: Course Developers
+nav_order: 3
+published: false
 ---
 
 Tired of hitting balls on the same range every day? Switch things up by building your own custom practice ranges for OpenGolfSim.
@@ -11,12 +12,12 @@ Tired of hitting balls on the same range every day? Switch things up by building
 
 ## Getting Started
 
-1. First create a new blank Unity 6000.2 HDRP project.
-2. Install our SDK by dragging the OGS Course SDK files into your new project. (The latest SDK files can be found on our [Discord](/connect-with-us/))
+First make sure you have [setup and installed a Unity project](/tools/unity-setup.md) and installed the [OpenGolfSim Tools](/tools/unity-sdk) package.
 
 ## Building Your Course in Unity
 
-Add terrains or meshes to build your practice range environment. We recommend a terrain with a size of 600m x 600m for ranges, which is a little over 600 square yards.
+1. Add a new terrain object to the scene 
+2. Set the terrain size. We recommend a terrain size of 1000m x 1000m for practice ranges, which is 1 square kilometer.
 
 #### Guides and Tools
 

@@ -245,3 +245,26 @@ p.note, blockquote.note {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-icon {
+  justify-content: flex-start;
+}
+.btn-icon > img {
+  height: 0.85em;
+}
+// .btn > span {
+//   line-height: 1;
+// }
+
+.label:not(g) {
+  background-color: $grey-dk-200;
+  text-transform: none;
+}
+small {
+  color: $grey-lt-300;
+}
