@@ -53,7 +53,7 @@ You'll need the official OGS color palette installed in Inkscape so you can set 
 
 ## Install Course Terrain Tool
 
-[Course Terrain Tool](/tools/course-building/terrain.md) is an open-source tool created by OpenGolfSim to source and process real-world lidar point-cloud data into usable terrain data for your golf course. It also downloads and processes satellite and hill-shade imagery to aid in course design.
+[Course Terrain Tool](/tools/utilities/course-terrain-tool) is an open-source tool created by OpenGolfSim to source and process real-world lidar point-cloud data into usable terrain data for your golf course. It also downloads and processes satellite and hill-shade imagery to aid in course design.
 
 <a href="/tools/utilities/course-terrain-tool" target="_blank" class="btn">Download Course Terrain Tool</a>
 

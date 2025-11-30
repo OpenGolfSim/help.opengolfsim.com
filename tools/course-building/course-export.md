@@ -26,6 +26,44 @@ Before we can export and play the new course, we need to define each hole's par,
 7. Once you have your course laid out. You're ready to export your course build!
 
 
+### Export Course
+
+1. You'll first need to assign an AssetBundle to your main course scene.
+
+    1. In Unity, locate and select your scene in your project folder. 
+    2. At the bottom of the Inspector you should see an `AssetBundle` section. Click the dropdown and add create a new asset bundle.
+    3. Enter a unique name/slug for your course (all lowercase and no spaces). (e.g. `spacerange` or `the_moon_gc`)
+
+
+2. Then you can export your asset bundle using the Export Tool.
+
+    1. Select **Tools > OpenGolfSim > Export Course Build**{: .label }
+
+    2. Select an output folder to export your build files to. We recommend creating a new folder with a version number, to easily differentiate between your exports. (e.g. `the_moon_gc_v1`)
+
+    3. Click the **Export**{: .label } button to begin the export. This step can take a long time, but once finished you should have a folder with some `.unity3d` files in it.
+
+
+### Playing Your Course
+
+1. Move or copy the folder containing your exported course files into the `ogs_courses` directory, which should be located at:
+
+    #### Windows
+    ```
+    C:\Users\USERNAME\AppData\Roaming\opengolfsim-desktop\ogs_courses
+    ```
+    
+    #### MacOS
+    ```
+    /Users/USERNAME/Library/Application Support/opengolfsim-desktop/ogs_courses
+    ```
+
+2. Start (or restart) the OpenGolfSim desktop app, and you should see your course with some generic details now in your library.
+
+
+{: .note }
+> Due to a technical bug, you may need to remove the mac build on windows, or the windows build on mac from your export folder before attempting to load it into OGS. If your course renders as pink, it's likely using the wrong version.
+
 ---
 
 
