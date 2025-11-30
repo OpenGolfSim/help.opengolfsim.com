@@ -48,12 +48,12 @@ Before we can export and play the new course, we need to define each hole's par,
 
 1. Move or copy the folder containing your exported course files into the `ogs_courses` directory, which should be located at:
 
-    #### Windows
+    **Windows**
     ```
     C:\Users\USERNAME\AppData\Roaming\opengolfsim-desktop\ogs_courses
     ```
     
-    #### MacOS
+    **MacOS**
     ```
     /Users/USERNAME/Library/Application Support/opengolfsim-desktop/ogs_courses
     ```
@@ -62,7 +62,7 @@ Before we can export and play the new course, we need to define each hole's par,
 
 
 {: .note }
-> Due to a technical bug, you may need to remove the mac build on windows, or the windows build on mac from your export folder before attempting to load it into OGS. If your course renders as pink, it's likely using the wrong version.
+> Due to a technical bug, you may need to remove the mac build on windows, or the windows build on mac from your export folder before attempting to load it into OGS. If your course renders as pink, it's likely using the wrong version for your system.
 
 ---
 
