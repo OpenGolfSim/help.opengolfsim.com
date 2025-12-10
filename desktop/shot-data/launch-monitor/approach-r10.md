@@ -1,12 +1,15 @@
 ---
 title: Approach R10
 parent: Launch Monitors
-nav_order: 1
+nav_order: 3
 ---
 
 # Garmin Approach R10
 
 We have an experimental Approach R10 integration with our OGS Core simulator software. Below you'll find instructions and troubleshooting tips for connecting your Approach R10.
+
+{: .note }
+> The experimental Garmin Approach R10 connector is currently available on Windows platforms only.
 
 ## Windows Setup
 
@@ -24,8 +27,6 @@ To setup the Approach R10 as your primary OpenGolfSim launch monitor:
 1. Open **OpenGolfSim Desktop** and select **Simulator** in the sidebar.
 
 2. When prompted to configure your launch monitor, selected the **Approach R10** option.<br>(Note: If you have already setup a launch monitor, you can go to **Settings > Shot Data** to change your launch monitor)
-
-3. The required tools will be downloaded automatically on the next step.
 
 ## Operation
 

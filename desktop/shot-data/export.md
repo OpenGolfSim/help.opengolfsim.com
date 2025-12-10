@@ -3,6 +3,7 @@ parent: Shot Data
 title: Export
 nav_order: 2
 has_children: true
+published: false
 ---
 
 ## Exporting Your Data
