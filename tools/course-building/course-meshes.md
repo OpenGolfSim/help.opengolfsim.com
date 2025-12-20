@@ -6,7 +6,7 @@ nav_order: 3
 
 # Course Meshes
 
-To create separate playable surfaces, like fairways and greens. We need to convert the basic shapes we drew in Inkscape into 3D objects that are sloped to match our terrain.
+To create separate playable surfaces, like fairways and greens. We need to convert the basic shapes we drew in Inkscape into 3D objects that are sloped to match our terrain. We created a specialized tool for this, called Meshery.
 
 
 1. TOC
@@ -14,15 +14,18 @@ To create separate playable surfaces, like fairways and greens. We need to conve
 
 ## Creating Meshes
 
-1. Open the [Course Meshery](/tools/utilities/course-meshery) tool.
 
-2. Click the **Select SVG File**{: .label } button and locate the SVG file you created in the [Course Map](/tools/course-building/course-map) step.
+1. Download and open the [Meshery](/tools/utilities/course-meshery) tool.
+    
+    On Windows, you may get a warning from Microsoft Defender. Click **More info** and then select **Run anyways**
 
-3. Click the **Select RAW Terrain**{: .label } button and locate the raw terrain data file you created in the [Course Terrain](/tools/course-building/course-map) step.
+2. Click the **Import RAW Terrain**{: .label } button and locate the raw terrain data file you created in the [Course Terrain](/tools/course-building/course-map) step.
 
-4. Set the **Height Scale**{: .label } value to the same thing as your **Terrain Height** in Unity.
+3. Click the **Import SVG**{: .label } button and locate the SVG file you created in the [Course Map](/tools/course-building/course-map) step.
 
-    To find the terrain height
+4. Set the **Terrain Height**{: .label } value to the same thing as your **Terrain Height** in Unity.
+
+    To find your terrain height
 
     1. Click the terrain object in your scene.
     
@@ -30,15 +33,17 @@ To create separate playable surfaces, like fairways and greens. We need to conve
     
     3. Scroll down to your Terrain Size section and you should see **Terrain Height**
 
-5. Set **Output Folder**{: .label } to the location you want the course folder to be generated. When the job completes, there will be a new unique folder created at this location.
+5. In Meshery you can optionally set a **Terrain Smoothing**{: .label } value for you terrain, to smooth out any rough / bumpy terrain. For more fine grained control, consider editing and smoothing your terrain in Unity and exporting a new RAW file for Meshery.
 
-<a href="/assets/course-building/meshery-screen.png" target="_blank">
-  <img src="/assets/course-building/meshery-screen.png" width="500" alt="Meshery Screenshot" />
+6. Click **Export Meshes**{: .label } and select a the location to save your OBJ file containing your course meshes.
+
+<a href="/assets/course-building/meshery-window.png" target="_blank">
+  <img src="/assets/course-building/meshery-window.png" width="500" alt="Meshery Screenshot" />
 </a>
 
 ## Import Meshes Into Unity
 
-Next you'll want to import the folder of meshes into your Unity project. These meshes will sit just above your terrain layer. Make sure you're using the project template and have the OpenGolfSim Developer Toolkit package, which should include a tool for importing and batch assigning base materials to your meshes.
+Next you'll want to import the OBJ file into your Unity project. These meshes will sit just above your terrain layer. Make sure you're using the project template and have the OpenGolfSim Developer Toolkit package, which should include a tool for importing and batch assigning base materials to your meshes.
 
 1. In your Unity project, go to **Tools > OpenGolfSim > Import Meshes**{: .label }
 
@@ -48,11 +53,11 @@ Next you'll want to import the folder of meshes into your Unity project. These m
 
 3. At this point you can batch assign materials like grass and sand to your course surfaces. 
 
-4. Click the **Import OBJs**{: .label } button and wait for the script to automatically import the course meshes to your scene. This step could take quite a while, depending on the size of your course.
+4. Click the **Import OBJs**{: .label } button and wait for the script to automatically import the course meshes to your scene.
 
-5. Once the task finishes, you should see a new parent game object with the name of your folder. 
+5. Once the task finishes, you should see a new parent game object with the name of your file. 
 
-6. You'll likely need to reposition the parent game object over the terrain by offsetting the X or Z value by the terrain size, as well as adjusting the Y position to be above the terrain.
+6. After import, you'll likely need to reposition the parent game object to sit above the terrain by offsetting the Y position to be above the terrain.
 
 ---
 

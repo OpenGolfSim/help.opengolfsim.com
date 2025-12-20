@@ -25,6 +25,8 @@ nav_order: 2
 
 ---
 
+<img src="/assets/course-building/meshery-window.png" />
+
 ### Generating Meshes
 
 To generate your meshes:
