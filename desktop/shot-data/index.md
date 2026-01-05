@@ -1,7 +1,7 @@
 ---
 parent: OpenGolfSim Desktop
-title: Shot Data
-nav_order: 5
+title: Shot Data & Launch Monitors
+nav_order: 4
 has_children: true
 ---
 

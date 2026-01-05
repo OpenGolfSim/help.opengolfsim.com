@@ -1,5 +1,5 @@
 ---
-parent: OpenGolfSim Mobile
+parent: OpenGolfSim Control App
 title: Getting Started
 thumbnail: /assets/white_256x256.png
 nav_order: 1
@@ -13,7 +13,7 @@ Follow the guide below to get full control of your golf sim experience using our
 
 You can download our OpenGolfSim Mobile app from the App Store or Google Play Store. OpenGolfSim works best on tablets, but should work on any iOS or Android mobile device.
 
-<img src="/assets/mobile/mobile-app-devices.png" width="100%" style="max-width: 700px;" />
+<img src="/assets/mobile/mobile-app-devices.png" width="100%" style="max-width: 300px;" />
 
 ## Setup
 

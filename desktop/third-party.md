@@ -3,6 +3,7 @@ parent: OpenGolfSim Desktop
 title: Third-Party Software
 nav_order: 7
 thumbnail: /assets/appicon.svg
+published: false
 ---
 
 Some features of OpenGolfSim Desktop unofficially integrate with other third-party simulator software, like GSPro. Below you'll find some tips and tweaks to make these apps work better with OpenGolfSim.

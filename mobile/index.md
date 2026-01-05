@@ -1,5 +1,5 @@
 ---
-title: OpenGolfSim Mobile
+title: OpenGolfSim Control App
 nav_order: 3
 category: tools
 thumbnail: /assets/white_256x256.png
@@ -12,7 +12,7 @@ has_children: true
     <img src="/assets/white_256x256.png" height="64" style="border-radius: 10%" />
   </div>
   <div class="app-banner-cta">
-    <h1>OpenGolfSim Mobile</h1>
+    <h1>OpenGolfSim Control App</h1>
   </div>
 </div>
 
@@ -30,7 +30,7 @@ has_children: true
 
 
 
-The easiest way to control your sim is with the OpenGolfSim Mobile control app. If you’ve got an old phone or tablet collecting dust, repurpose it into a control box for your simulator.
+The easiest way to control your sim is with the OpenGolfSim control app for iOS and Android. If you’ve got an old phone or tablet collecting dust, repurpose it into a control box for your simulator!
 
 
 <div style="margin: 20px 0;display: flex; gap: 30px; align-items: center; justify-content: center;">
