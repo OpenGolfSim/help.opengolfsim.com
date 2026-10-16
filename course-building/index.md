@@ -1,6 +1,6 @@
 ---
 title: Course Building
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 
@@ -21,7 +21,7 @@ Join our Discord to get help and learn more about course building or find a cour
 
 # Course Building Guide
 
-At the time of writing. Building courses for OGS is still a new and experimental process and requires some existing knowledge of tools like Blender and Inkscape. We've built a custom course building app called [Course Meshery](/tools/course-meshery) that makes course building for OpenGolfSim FUSE as easy as possible.
+At the time of writing. Building courses for OGS is still a new and experimental process and requires some existing knowledge of tools like Blender and Inkscape. We've built a custom course building app called [Course Meshery](/course-building/tools/course-meshery) that makes course building for OpenGolfSim FUSE as easy as possible.
 
 Some helpful tips:
 

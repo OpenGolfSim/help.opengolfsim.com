@@ -1,6 +1,6 @@
 ---
 title: OpenGolfSim Mobile
-nav_order: 3
+nav_order: 4
 category: tools
 thumbnail: /assets/white_256x256.png
 has_children: true
@@ -16,17 +16,6 @@ has_children: true
   </div>
 </div>
 
+<img src="/assets/mobile/ipad-game-landscape.jpg" width="100%" style="max-width: 600px;margin: auto;" />
 
-
-<!-- <div style="margin: 20px 0;display: flex; gap: 30px; align-items: center; justify-content: center;">
-  <a href="https://apps.apple.com/us/app/opengolfsim/id6745538399">
-    <img src="/assets/mobile/app_store.svg" width="180" />
-  </a>
-  <a href="https://play.google.com/store/apps/details?id=com.ogs.opengolfsim">
-    <img src="/assets/mobile/google_play.svg" width="180" />
-  </a>
-</div> -->
-
-<img src="/assets/mobile/landscape_1000x724.png" width="100%" style="max-width: 700px;" />
-
-### 🎉 OpenGolfSim mobile is now in beta! Hit the range or play our demo courses on your compatible iOS or Android device. Head to our [Discord](/connect-with-us/) to get an invite to our beta program to get early access.
+OpenGolfSim for iOS & Android lets you practice and play anywhere.

@@ -15,8 +15,9 @@ defaults:
 
 plugins:
   - jekyll-tabs
+  - jekyll-redirect-from
 
-footer_content: 'Copyright &copy; 2025 OpenGolfSim LLC - <a href="/privacy">Privacy</a> - <a href="/terms">Terms and Conditions</a>'
+footer_content: 'Copyright &copy; 2026 OpenGolfSim LLC - <a href="/privacy">Privacy</a> - <a href="/terms">Terms and Conditions</a>'
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y"
 
@@ -24,12 +25,14 @@ show_excerpts: true
 enable_copy_code_button: true
 
 aux_links:
-  # Shop:
-  #   - https://opengolfsim.com
   Contact Us:
     - /contact
   Socials:
     - /connect-with-us
+
+external_urls:
+  download: https://opengolfsim.com/download
+  account: https://app.opengolfsim.com/account/profile
 
 exclude: [brian, .vscode, _site, vendor]
 

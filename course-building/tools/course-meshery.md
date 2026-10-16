@@ -3,6 +3,8 @@ title: Course Meshery
 parent: Tools
 category: tools
 nav_order: 2
+redirect_from:
+  - /tools/course-meshery/
 ---
 
 # Course Meshery

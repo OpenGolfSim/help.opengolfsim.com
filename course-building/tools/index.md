@@ -1,14 +1,17 @@
 ---
+parent: Course Building
 title: Tools
 category: developer
-nav_order: 5
+nav_order: 2
 has_children: true
+redirect_from:
+  - /tools/
 ---
 
 
 ## Course Building Utilities
 
-OpenGolfSim provides some free and open-source tools for creating your courses. 
+OpenGolfSim provides some free and open-source tools for creating courses. 
 
 <h2 class="post-list-heading">Documentation</h2>
 <ul class="tool-list">

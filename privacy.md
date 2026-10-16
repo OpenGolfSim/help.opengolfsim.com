@@ -3,7 +3,7 @@ title: Privacy Policy
 nav_exclude: true
 ---
 
-<h1>Privacy Policy for OpenGolfSim LLC</h1>
+<h1>Privacy Policy</h1>
 
 <p>At OpenGolfSim LLC, accessible from https://opengolfsim.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by OpenGolfSim LLC and how we use it.</p>
 

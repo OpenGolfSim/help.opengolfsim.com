@@ -2,6 +2,7 @@
 title: Square Golf
 parent: Launch Monitors
 nav_order: 4
+published: false
 ---
 
 # Square Golf
