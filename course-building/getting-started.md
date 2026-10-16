@@ -15,9 +15,9 @@ Before you start building courses, you'll need a few of different tools installe
 
 ## Download & Install Course Meshery
 
-[Course Meshery](/tools/course-meshery) is our all-in-one course building tool created to build and publish your own virtual courses.
+[Course Meshery](/course-building/tools/course-meshery) is our all-in-one course building tool created to build and publish your own virtual courses.
 
-<a href="/tools/course-meshery" target="_blank" class="btn">Download Course Meshery</a>
+<a href="/course-building/tools/course-meshery" target="_blank" class="btn">Download Course Meshery</a>
 
 ---
 

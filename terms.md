@@ -3,9 +3,9 @@ title: Terms and Conditions
 nav_exclude: true
 ---
 
-# OPENGOLFSIM TERMS AND CONDITIONS
+# Terms & Conditions
 
-Last updated March 23, 2025
+<small>**Last updated:** October 16, 2026</small>
 
 
 ## AGREEMENT TO OUR LEGAL TERMS

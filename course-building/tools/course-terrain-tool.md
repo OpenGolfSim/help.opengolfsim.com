@@ -3,12 +3,14 @@ title: Course Terrain Tool
 parent: Tools
 category: tools
 nav_order: 1
+redirect_from:
+  - /tools/course-terrain-tool/
 ---
 
 # Course Terrain Tool
 
 {: .error }
-> Course terrain tool is no longer actively developed. We've moved the lidar and terrain processing into our all-in-one course building tool, Meshery.
+> Course terrain tool is no longer actively developed. We've moved the lidar and terrain processing into our all-in-one course building tool, [Meshery](/tools/course-meshery/).
 
 
 <img src="/assets/icon.png" alt="Course Terrain Tool" srcset="/assets/icon.png 2x" />

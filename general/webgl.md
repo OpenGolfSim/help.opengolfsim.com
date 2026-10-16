@@ -2,6 +2,7 @@
 parent: OpenGolfSim Web
 title: Web Simulator
 nav_order: 1
+published: false
 ---
 
 # Web Simulator

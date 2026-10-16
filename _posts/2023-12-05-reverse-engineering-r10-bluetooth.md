@@ -6,7 +6,7 @@ last_modified_date: 2023-12-05
 published: false
 ---
 
-My setup is, like I imagine most DIY home golf simulators are, complicated. I use a Garmin Approach R10 connected via Bluetooth to an iPad running the GarminGolf app. Then I connect GarminGolf to the [Approach R10 Connect](/tools/approach-r10-connect/) app, over the E6 Connect API. Which forwards shot data to GSPro using their [OpenConnect](https://gsprogolf.com/GSProConnectV1.html) API.
+My setup is, like I imagine most DIY home golf simulators are, complicated. I use a Garmin Approach R10 connected via Bluetooth to an iPad running the GarminGolf app. Then I connect GarminGolf to the [Approach R10 Connect](/course-building/tools/approach-r10-connect/) app, over the E6 Connect API. Which forwards shot data to GSPro using their [OpenConnect](https://gsprogolf.com/GSProConnectV1.html) API.
 
 Phew! Have your eyes glazed over yet? If so, I put together a diagram that shows the setup I described above.
 
